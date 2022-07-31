@@ -1,4 +1,4 @@
-# calculator_advanced
+# Calculator Advanced
 advanced web calculator (with numpad)
 ![image](https://user-images.githubusercontent.com/42734308/182027828-f4eb6ddb-6c6b-488f-b72e-4b965aefbdee.png)
 
