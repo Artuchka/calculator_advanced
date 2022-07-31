@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.output {
+    height: 100px;
+    border: 2px solid blue;
+    width: 400px;
+    text-align: right;
+    font-size: 1em;
+}
+
+.secondary-operand {
+    font-size: 0.8em;
+    display: inline-block;
+}
+
+.operation {
+    line-height: 1em;
+
+}
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(5, 100px);
+}
+
+.numpad > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+    border: 1px solid white;
+    cursor: pointer;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s;
+}
+
+.numpad > *:active {
+    transform: scale3d(0.7, 0.7, 1);
+}
+
+.span-two {
+    grid-column: span 2;
+}
